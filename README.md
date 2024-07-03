@@ -2,6 +2,16 @@
 
 Spotty McScraperface is a command line Python tool that takes a public Spotify playlist and returns a json and csv of the songs and artists in that playlist.
 
+### How do I use it?
+
+Just invoke it via Python with a reference to the full spotify playlist URL... 
+
+`python getplaylist.py '<playlist url>'`
+
+e.g., 
+
+`python getplaylist.py 'https://open.spotify.com/playlist/1lJDx1lqWkjnh8D7VITEhC?si=68096054aee34fad'`
+
 ### Why though?
 
 I've been exploring LLMs versus recommender systems and this is an easy way for you to retrieve a bunch of songs/artists to find relevant and similar artists. 
